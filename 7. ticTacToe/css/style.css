@@ -1,0 +1,97 @@
+body{
+    background-color: purple;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 600;
+}
+#content{
+    background-color: white;
+    height: 450px;
+    width: 450px;
+    margin: 0px auto auto auto;
+}
+header{
+    
+    font-size: 74px;
+    text-align: center;
+    padding: 50px;
+    margin: 50px auto 10px auto;
+}
+#aside{
+    float: left;
+    width: 150px;
+    margin: 175px 50px 50px 250px;
+}
+#counter{
+    margin: -55.7px auto auto 120px;
+}
+#grid-box{
+    background-color: white;
+    height: 450px;
+    width: 450px;
+    margin: 50px auto auto auto;
+}
+.grid-tile{
+    background-color: black;
+    height: 147.5px;
+    width: 147.5px;
+    
+    float:left;
+
+    border-width: 1.25px;
+    border-color: white;
+    border-style: solid;
+
+    color: white;
+    font-size: 137.5px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+#result{
+
+    display: none;
+
+    float:right;
+    margin: -270px -450px auto 270px;
+}
+#message{
+    margin: -58.38px 55px auto 30px;
+
+}
+#restart{
+    width: 150px;
+    height: 50px;
+    margin: 100px auto auto 150px;
+    background-color: black;
+    color:white;
+    font-family: inherit;
+    font-size: 19px;
+    border-radius: 10px;
+    letter-spacing: 0.75px;
+}
+#play-again{
+
+    float: left;
+
+    background-color: pink;
+    width: 500px;
+    height: 50px;
+    padding: 50px;
+    margin: -350px auto auto -75px;
+
+    border: 4px solid black;
+    border-radius: 10px;
+
+    display: none;
+}
+#play-again-btn{
+    width: 250px;
+    height: 50px;
+    background-color: black;
+    color:white;
+    font-family: inherit;
+    font-size: 22px;
+    letter-spacing: 1px;
+    border-radius: 10px;
+    margin: 0px auto auto 125px;
+}
+
